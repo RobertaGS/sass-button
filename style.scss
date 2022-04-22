@@ -4,7 +4,30 @@
 }
 body{
     height: 100vh;
-    background-color: rgb(119, 82, 129);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    background-color: rgb(58, 38, 64, 0.97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 3rem;
+    font-weight: 600;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.2s linear 0.5s;
+   
+    &:hover{
+        box-shadow:cornsilk;
+        color:rgb(244, 240, 245);
+        background-color:rgb(176, 176, 171);
+    }
+}
+
+
+
 }
